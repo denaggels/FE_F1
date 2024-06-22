@@ -12,12 +12,12 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='formulaone',
+    name='movie_loader',
     version='0.1.0',
-    description='Downloads and prepares formula one data',
+    description='Downloads and prepares movie data',
     long_description=readme,
-    author='Timo Schuerg',
-    author_email='t.schuerg@th-bingen.de',
+    author='Leon Mizera',
+    author_email='leon.mizera@stud...',
     url='https://github.com/kennethreitz/samplemod',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
